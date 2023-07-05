@@ -41,6 +41,7 @@ var coreAnalyzerMap = map[string]common.IAnalyzer{
 	"StatefulSet":           StatefulSetAnalyzer{},
 	"CronJob":               CronJobAnalyzer{},
 	"Node":                  NodeAnalyzer{},
+	"Webhook":               WebhookAnalyzer{},
 }
 
 var additionalAnalyzerMap = map[string]common.IAnalyzer{
